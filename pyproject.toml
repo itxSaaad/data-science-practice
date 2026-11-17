@@ -1,0 +1,46 @@
+[tool.uv]
+name = "data-science-practice"
+version = "0.1.0"
+description = "Data Science Zero to Hero practice scaffold"
+authors = [{ name = "Muhammad Saad Faisal", email = "saadfaisal.dev@gmail.com" }]
+requires-python = ">=3.10"
+
+[project]
+name = "data-science-practice"
+version = "0.1.0"
+description = "Scaffold for Data Science Zero to Hero on AWS & Azure"
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+authors = [{name = "Muhammad Saad Faisal", email = "saadfaisal.dev@gmail.com"}]
+
+[project.dependencies]
+python = ">=3.10"
+# Core data stack
+pandas = "*"
+polars = "*"
+duckdb = "*"
+scikit-learn = "*"
+lightgbm = "*"
+xgboost = "*"
+optuna = "*"
+shap = "*"
+mlflow = "*"
+pandera = "*"
+evidently = "*"
+# dbt & orchestration
+"dbt-core" = "*"
+"dbt-duckdb" = "*"
+prefect = "*"
+# Cloud SDKs
+boto3 = "*"
+"sagemaker" = "*"
+"azure-ai-ml" = "*"
+"azureml-mlflow" = "*"
+# Web & UI
+fastapi = "*"
+uvicorn = "*"
+streamlit = "*"
+# Dev tools
+pytest = "*"
+python-dotenv = "*"
